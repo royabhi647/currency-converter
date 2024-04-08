@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="7" errors="0" time="2.671">
+  <testsuite name="Validation of initial Inputs" errors="0" failures="7" skipped="0" timestamp="2024-04-08T07:34:08" time="1.852" tests="7">
+    <testcase classname="Validation of initial Inputs should have correct initial values in the input boxes" name="Validation of initial Inputs should have correct initial values in the input boxes" time="0.12">
+      <failure>Error: expect(element).toHaveValue(1)
+
+Expected the element to have value:
+  1
+Received:
+  0
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:34:24)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Validation of initial Inputs should have correct initial option in the select menu" name="Validation of initial Inputs should have correct initial option in the select menu" time="0.017">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  INR
+Received:
+  CAD
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:39:39)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Functionality of select menu and input fields should have 5 currencies in the select menu" name="Functionality of select menu and input fields should have 5 currencies in the select menu" time="0.02">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  INR
+Received:
+  CAD
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:45:39)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Functionality of select menu and input fields should calculate the converted value upto 3 decimal places on currency change" name="Functionality of select menu and input fields should calculate the converted value upto 3 decimal places on currency change" time="0.046">
+      <failure>Error: expect(element).toHaveValue(0)
+
+Expected the element to have value:
+  0
+Received:
+  81.049
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:54:28)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Functionality of select menu and input fields should calculate the converted value upto 3 decimal places on changing the input value" name="Functionality of select menu and input fields should calculate the converted value upto 3 decimal places on changing the input value" time="0.024">
+      <failure>Error: expect(element).toHaveValue(18.009)
+
+Expected the element to have value:
+  18.009
+Received:
+  81.049
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:63:28)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Functionality of select menu and input fields should reset the input to 1 and give the conversion in the current currency on &quot;Reset&quot; button click" name="Functionality of select menu and input fields should reset the input to 1 and give the conversion in the current currency on &quot;Reset&quot; button click" time="0.022">
+      <failure>Error: expect(element).toHaveValue(1)
+
+Expected the element to have value:
+  1
+Received:
+  0
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:72:24)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Functionality of select menu and input fields should change the placeholder text according to currency" name="Functionality of select menu and input fields should change the placeholder text according to currency" time="0.048">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;Enter value in AUD&quot;
+Received: &quot;Enter value in USD&quot;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:84:36)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
